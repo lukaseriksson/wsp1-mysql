@@ -14,3 +14,9 @@ MYSQL
 setup Kör
 
 sudo mysql -u root
+
+sudo service apache2 restart
+sudo a2enmod userdir
+sudo service apache2 restart
+
+mkdir public_html 
